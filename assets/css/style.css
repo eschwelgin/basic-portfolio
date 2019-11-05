@@ -70,3 +70,8 @@ div h1 {
     font-size: 2em;
     color: #4aaaa5;
 }
+
+/* style nav links */
+a + a {
+    border-right: 2px solid rgb(199, 198, 198);
+}
