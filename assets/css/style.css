@@ -8,11 +8,12 @@ body {
 /* navigation menu */
 nav {
     overfow: hidden;
-    background-color: white;
+    background-color: #ffffff;
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
+    border: 2px solid #cccccc;
 }
 
 nav a {
@@ -31,7 +32,7 @@ nav a:hover{
 /* style name */
 .nav h1 {
     float: left;
-    color: white;
+    color: #ffffff;
     font-size: 1.3em;
     background-color: #4aaaa5;
 }
@@ -54,14 +55,14 @@ article {
 .about, .contact, .portfolio{
     display: inline-block;
     margin: 20px 20px 20px 20px;
-    border: 1px solid black;
+    border: 1px solid #dddddd;
     padding: 20px 20px 20px 20px;
-    background-color: white;
+    background-color: #ffffff;
 }
 
 /* add underline under div title */
 .about h1, .contact h1, .portfolio h1{
-    border-bottom: 3px solid rgb(199, 198, 198);
+    border-bottom: 3px solid #dddddd;
 }
 
 /* style section titles */
@@ -73,5 +74,14 @@ div h1 {
 
 /* style nav links */
 a + a {
-    border-right: 2px solid rgb(199, 198, 198);
+    border-right: 2px solid #dddddd;
+}
+
+/* style footer */
+footer{
+    background-color: #666666;
+    border-top: 10px solid #4aaaa5;
+    text-align: center;
+    padding: 30px 30px 5px 30px;
+    font-weight: 700;
 }
