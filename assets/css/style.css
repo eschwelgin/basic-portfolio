@@ -56,16 +56,16 @@ article {
 }
 
 /* different widths for sections */
-.about{
-    max-width: 80%;
-    }
-
-.contact, .portfolio{
-    max-width: 50%;
+.about,
+.contact, 
+.portfolio{
+    width: 960px;
 }
 
 /* combine styles for sections */
-.about, .contact, .portfolio{
+.about, 
+.contact, 
+.portfolio{
     display: inline-block;
     margin: 20px 20px 20px 20px;
     border: 1px solid #dddddd;
@@ -74,7 +74,9 @@ article {
 }
 
 /* add underline under div title */
-.about h1, .contact h1, .portfolio h1{
+.about h1, 
+.contact h1, 
+.portfolio h1 {
     border-bottom: 3px solid #dddddd;
 }
 
@@ -91,7 +93,7 @@ a + a {
 }
 
 /* style footer */
-footer{
+footer {
     background-color: #666666;
     border-top: 10px solid #4aaaa5;
     text-align: center;
@@ -103,7 +105,7 @@ footer{
     width: 100%;
 }
 
-.float{
+.float {
     float: left;
     width: 200px;
     height:200px;
