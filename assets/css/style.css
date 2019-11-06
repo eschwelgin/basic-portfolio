@@ -5,6 +5,14 @@ body {
     background-attatchment: fixed;
 }
 
+/* do a second nav inside the main nav - wide nav for style narrow nav for 960 */
+.width{
+    max-width: 960px;
+    position: relative;
+    
+}
+
+
 /* navigation menu */
 nav {
     overfow: hidden;
@@ -43,6 +51,7 @@ nav a:hover{
 
 article {
     padding-top: 70px;
+    padding-bottom: 70px;
     text-align: center;
 }
 
@@ -88,4 +97,8 @@ footer{
     text-align: center;
     padding: 30px 30px 5px 30px;
     font-weight: 700;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
 }
