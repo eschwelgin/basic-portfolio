@@ -21,7 +21,8 @@ nav a {
     display: block;
     color: black;
     text-align: center;
-    padding: 14px;
+    margin: 0px 0px 0px 0px;
+    padding: 20px 20px 20px 20px;
     text-decoration: none;
 }
 
@@ -36,6 +37,8 @@ nav a:hover{
     color: #ffffff;
     font-size: 1.3em;
     background-color: #4aaaa5;
+    margin: 0px 0px 0px 0px;
+    padding: 20px 20px 20px 20px;
 }
 
 article {
