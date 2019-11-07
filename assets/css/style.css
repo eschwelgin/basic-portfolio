@@ -5,15 +5,16 @@ body {
     background-attatchment: fixed;
 }
 
-/* do a second nav inside the main nav - wide nav for style narrow nav for 960 */
+/*this needs to be 100% for styling */
 .width{
     max-width: 960px;
     position: relative;
-    
+    left: 50%;
+    transform: translateX(-50%);
 }
 
 
-/* navigation menu */
+/* navigation menu this needs tpo be 960px*/
 nav {
     overfow: hidden;
     background-color: #ffffff;
