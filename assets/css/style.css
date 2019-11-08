@@ -7,15 +7,10 @@ body {
 
 /*this needs to be 100% for styling */
 .width{
-    max-width: 960px;
-    position: relative;
-    left: 50%;
-    transform: translateX(-50%);
-}
-
-
-/* navigation menu this needs tpo be 960px*/
-nav {
+    /* max-width: 960px; */
+    /* position: relative; */
+    /* left: 50%; */
+    /* transform: translateX(-50%); */
     overfow: hidden;
     background-color: #ffffff;
     position: fixed;
@@ -23,6 +18,21 @@ nav {
     left: 0;
     width: 100%;
     border: 2px solid #cccccc;
+}
+
+
+/* navigation menu this needs tpo be 960px*/
+nav {
+    overfow: hidden;
+    background-color: #ffffff;
+    /* position: fixed; */
+    /* top: 0; */
+    /* left: 0; */
+    width: 960px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    /* border: 2px solid #cccccc; */
 }
 
 nav a {
