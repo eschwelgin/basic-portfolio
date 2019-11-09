@@ -75,7 +75,7 @@ nav a:active{
 article {
     margin-top: 70px;
     margin-bottom: 100px;
-    text-align: center;
+    text-align: left;
     z-index: 1;
 }
 
@@ -165,10 +165,6 @@ textarea {
     min-width: 99.5%;
     max-width: 99.5%;
     border: 1px solid #dddddd;
-}
-
-p {
-    text-align: left;
 }
 
 .overlay {
