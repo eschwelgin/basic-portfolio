@@ -75,7 +75,7 @@ nav a:active{
 article {
     margin-top: 70px;
     margin-bottom: 100px;
-    text-align: left;
+    text-align: center;
     z-index: 1;
 }
 
@@ -84,6 +84,7 @@ article {
 .contact, 
 .portfolio{
     width: 960px;
+    text-align: left;
 }
 
 /* combine styles for sections */
